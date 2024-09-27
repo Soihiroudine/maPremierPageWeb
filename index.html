@@ -3,6 +3,7 @@
 <head>
     <meta charset="utf-8">
     <title>Ma première page web</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
    <header>
@@ -17,15 +18,19 @@
         </nav>
     </header>
 
-    <section>
+    <section class="main">
         <h3 id="apprendre"> Apprendre</h3>
-        <a href="#lien">Les liens</a> <br/>
-        <a href="#image">Image</a>
 
-        <section>
-            <p>Technologie que l'on apprend : </p>
+        <div id="lienPara">
+            <a href="#lien">Les liens</a> <br/>
+            <a href="#image">Image</a>
+        </div>
+        
+
+        <section id="tech">
+            <h4>Technologie que l'on apprend : </h4>
             
-            <ul id="tech">
+            <ul>
                 <li>VISUAL STUDIO CODE</li>
                 <li>GIT & GITHUB</li>
                 <li>HTML</li>
@@ -49,7 +54,7 @@
                 <li>clavier</li>
             </ul>
 
-            <p>Regroupement par matrise : </p>
+            <h4>Regroupement par matrise : </h4>
             
             <ol>
                 <li>PYTHON</li>
@@ -63,29 +68,23 @@
             </ol>
         </section>
 
-        <div id="lien">
-
-            <h4>Des lien de test pour les hyperliens</h4>
+        <h4 id="lien">Des lien de test pour les hyperliens</4>
+        <div>
             <a href="https://www.google.com" target="_blank">lien vers google</a> <br />
             <a href="mailto:cazersdev@gmail.com">Contact vers cazers</a> <br />
             <a href="tel:+262693328326">Mon tel</a> <br />
             <a href="https://clubic.com" target="_blank">Site de clubic</a> <br />
             <a href="https://www.canva.com/" target="_blank">lien canvas</a>
-
-            <h4>Lien vers À propos</h4>
             <a href="a-propos.html" target="_blank">À propos</a> <br>   
             <a href="#apprendre">Section Apprendre</a><br>
         </div>
-
         
-        
+        <h4 id="image">Image de galaxie</h4>
         <div>
-            <h4 id="image">Image de galaxie</h4>
             <img src="https://img.freepik.com/photos-gratuite/sphere-celeste-brillante-orbite-autour-galaxie-etoilee-generee-par-ia_188544-15599.jpg?t=st=1727349721~exp=1727353321~hmac=55fee9e4fa70c882e13995641538ebba50c041622f77d63cabdfb4c4f0c0d201&w=1060" alt="Image galaxie depuis internet" title="Observation de planete"/>
-            <br/>
-            <img src="image/plan.jpg" alt="Image artistique" title="Effet mirroir"/> <br/>
-            <img src="image/galax1.jpg" alt="La galaxie fantaisie" title="Galaxie fantaisie"/>
-            <img src="image/fleur.jpg" alt="Fleur de glace" title="Fleur de cristal"/> <br/>
+            <img src="image/plan.jpg" alt="Image artistique" title="Effet mirroir"/> 
+            <img src="image/galax1.jpg" alt="La galaxie fantaisie" title="Galaxie fantaisie"/> 
+            <img src="image/fleur.jpg" alt="Fleur de glace" title="Fleur de cristal"/>
             <img src="image/galaxieLum.jpg" alt="Image de galaxie ia" title="sparcling"/>
         </div>
         
