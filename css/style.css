@@ -5,10 +5,11 @@
 }
 
 body{
-    background-image: url("../image/back.jpg");
+    /* background-image: url("../image/back.jpg"); */
     background-repeat: no-repeat;
     background-size:cover;
-    font-family: cursive;
+    font-family: "Roboto", sans-serif;
+    /* font-family: cursive; */
 
 }
 
@@ -101,6 +102,7 @@ a{
     margin: 10px;
     background-color: #212f3d;
     border-radius: 6px;
+    /* font-family: "Roboto", sans-serif; */
 }
 
 section a:hover{
@@ -113,13 +115,13 @@ h2, h3, h4{
     text-align: center;
 }
 
-p{
+/* p{
     color: #212f3d;
     font-size: 16px;
     padding-left: 20px;
     padding-right: 20px;
     font-weight: bold;
-}
+} */
 
 img{
     width: 250px;
@@ -145,7 +147,6 @@ form{
 form div{
     display: flex;
     flex-direction: row;
-    
 }
 
 form div input{
@@ -166,4 +167,52 @@ form div textarea{
     margin: 5px;
     padding: 10px;
     line-height: 1.5;
+}
+#encadre{
+    border: 2px solid #000;
+}
+
+/* Manipulation de texte  */
+
+/* font-size */
+.tPetit{
+    font-size: 10px;
+}
+.tNormal{
+    font-size: 1em;
+}
+.tGrand{
+    font-size: 3em;
+}
+
+/* font-weight */
+.tGras{
+    font-weight: bolder;
+}
+
+/* font-style */
+.tItalic{
+    font-style: italic;
+}
+
+/* text-decoration */
+.tSouligne{
+    text-decoration: underline;
+}
+
+/* text-align */
+
+/* left */
+.tGauche{
+    text-align: left;
+}
+
+/* center */
+.tCentre{
+    text-align: center;
+}
+
+/* rignt */
+.tDroite{
+    text-align: right;
 }
