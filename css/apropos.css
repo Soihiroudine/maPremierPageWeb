@@ -1,0 +1,11 @@
+
+a{
+    padding: 10px;
+    border-radius: 50px;
+    background-color: rgb(245, 154, 164);
+}
+
+div{
+    border-right: 1px solid #8e86b5;
+    border-bottom: 1px solid #8e86b5;
+}

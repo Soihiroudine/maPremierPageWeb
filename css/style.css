@@ -5,7 +5,7 @@
 }
 
 body{
-    /* background-image: url("../image/back.jpg"); */
+    background-image: url("../image/back.jpg");
     background-repeat: no-repeat;
     background-size:cover;
     font-family: "Roboto", sans-serif;
@@ -23,6 +23,7 @@ header{
     padding: 10px;
     flex-wrap: wrap;
 }
+
 header h1{
     color: aliceblue;
 }
@@ -37,6 +38,7 @@ nav ul{
 nav li{
     padding: 10px 15px;
 }
+
 nav a:hover{
     border: 1px solid #f9e79f;
     border-bottom: 5px solid #d3b024;
@@ -51,16 +53,17 @@ nav a:active{
     color: #212f3d;
 }
 
-/*  */
-.aligne{
+/***** Le body sans le header *****/
+.aligne {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 20px;
 }
 
-.main{
+.main {
     background-color: #f9e79f65;
+    box-shadow: -2px 6px 9px 9px rgb(241, 241, 205);
     width: 65%;
     display: flex;
     flex-direction: column;
@@ -68,10 +71,9 @@ nav a:active{
     align-self: center;
     border-radius: 6px;
     padding: 20px;
-
 }
 
-.sousPartie{
+.sousPartie {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -79,7 +81,7 @@ nav a:active{
     padding: 20px;
 }
 
-section ul, section ol{
+section ul, section ol {
     list-style-type: none;
     display: flex;
     flex-direction: row;
@@ -87,7 +89,7 @@ section ul, section ol{
     justify-content: center;
 }
 
-section ul li, section ol li{
+section ul li, section ol li {
     margin: 20px;
     padding: 10px 15px;
     color: antiquewhite;
@@ -95,7 +97,7 @@ section ul li, section ol li{
     border-radius: 6px;
 }
 
-a{
+a {
     text-decoration: none;
     color: antiquewhite;
     padding: 10px 15px;
@@ -105,17 +107,26 @@ a{
     /* font-family: "Roboto", sans-serif; */
 }
 
-section a:hover{
+section a:hover {
     background-color: #d3b024;
     color: #212f3d;
 }
 
-h2, h3, h4{
+h3{
     color: #093b5d;
     text-align: center;
+    padding: 50px;
+    background-color : #3498db;
+    border-top: 35px #b03a2e solid;
+    border-right: 35px #8e44ad solid;
+    border-bottom: 35px #148f77 solid;
+    border-left: 35px #7f8c8d solid;
+    border-radius: 10px 10px 10px;
+   
+
 }
 
-/* p{
+/* p {
     color: #212f3d;
     font-size: 16px;
     padding-left: 20px;
@@ -123,7 +134,7 @@ h2, h3, h4{
     font-weight: bold;
 } */
 
-img{
+img {
     width: 250px;
     height: 150px;
     margin: 10px 5px 10px 5px;
@@ -132,84 +143,60 @@ img{
 
 
 /**** Element du fichier à propos.html *****/
-#paragraphe p:first-child::before{
+#paragraphe p:first-child::before {
     content: " ";
-    padding: 20px;
+    padding: 1.5em;
 }
 
-/**** Element de formulaire : contact.html ****/
 
-form{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-form div{
-    display: flex;
-    flex-direction: row;
-}
-
-form div input{
-    border: none;
-    outline: none;
-    margin: 5px;
-    padding: 10px;
-    font-size: 16px;
-    border-radius: 6px;
-    line-height: 1.5;
-}
-
-form div textarea{
-    border: none;
-    outline: none;
-    font-size: 16px;
-    border-radius: 6px;
-    margin: 5px;
-    padding: 10px;
-    line-height: 1.5;
-}
-#encadre{
-    border: 2px solid #000;
-}
 
 /****** Manipulation de texte  dans le fichier about.html ******/
 
+
+#encadre {
+    border: 2px solid #000;
+    border-radius: 6px;
+    padding: 20px;
+}
+
 /* font-size */
-.tPetit{
+.tPetit {
     font-size: 10px;
 }
-.tNormal{
+
+.tNormal {
     font-size: 1em;
 }
-.tGrand{
+
+.tGrand {
     font-size: 3em;
 }
 
 
 /* font-weight */
-.tGras{
+.tGras {
     font-weight: bolder;
 }
 
 /* font-style */
-.tItalic{
+.tItalic {
     font-style: italic;
 }
 
 /* text-decoration */
-.tSouligne{
+.tSouligne {
     text-decoration: underline;
 }
 
 /* text-align */
 
 /* left = gauche*/
-.tGauche{
+.tGauche {
     text-align: left;
 }
 
 /* center = centré*/
-.tCentre{
+.tCentre {
     text-align: center;
 }
 
@@ -217,3 +204,4 @@ form div textarea{
 .tDroite{
     text-align: right;
 }
+
