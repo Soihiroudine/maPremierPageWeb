@@ -1,4 +1,4 @@
-/**** Element de formulaire : contact.html ****/
+/**** Element de formulaire ****/
 
 form {
     display: flex;
@@ -31,3 +31,4 @@ form div #envoyer:hover {
     transition: cubic-bezier(.09,1.08,.9,-0.57);
     transition: 1s;
 }
+
