@@ -7,7 +7,7 @@ table {
 tr:nth-child(even) {
     background-color: #a4a7a9;
 }
-.premiereCellule {
+.premiereLigne {
     background-color: #283747;
     color: #fdfefe ;
 }
