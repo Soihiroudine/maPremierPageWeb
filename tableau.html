@@ -10,38 +10,51 @@
 <body>
     <!-- Definition de d'un table -->
     <table>
+        <caption>Liste de fruit</caption>
         <!-- Entete du tableau -->
-        <tr class="premiereLigne">
-            <th>Nom</th>
-            <th>Couleur</th>
-            <th>Nombre</th>
-        </tr>
+        <thead>
+            <tr>
+                <th>Nom</th>
+                <th>Couleur</th>
+                <th>Nombre</th>
+            </tr>
+        </thead>
         <!-- Le corp du tableau -->
-        <tr>
-            <td>Pomme</td>
-            <td>verte</td>
-            <td>6</td>
-        </tr>
-        <tr>
-            <td>Orange</td>
-            <td>Orange</td>
-            <td>4</td>
-        </tr>
-        <tr>
-            <td>Poire</td>
-            <td>Jaune</td>
-            <td>8</td>
-        </tr>
-        <tr>
-            <td>Ananas</td>
-            <td>Jaune</td>
-            <td>1</td>
-        </tr>
-        <tr>
-            <td>Mandarine</td>
-            <td>Orange</td>
-            <td>18</td>
-        </tr>
+        <tbody>
+            <tr>
+                <td>Pomme</td>
+                <td>verte</td>
+                <td>6</td>
+            </tr>
+            <tr>
+                <td>Orange</td>
+                <td>Orange</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td>Poire</td>
+                <td>Jaune</td>
+                <td>8</td>
+            </tr>
+            <tr>
+                <td>Ananas</td>
+                <td>Jaune</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>Mandarine</td>
+                <td>Orange</td>
+                <td>18</td>
+            </tr>
+        </tbody>
+
+        <!-- Pied du tableau -->
+        <tfoot>
+            <tr>
+                <th scope="row" colspan="2">Fruit Total</th>
+                <td>37</td>
+            </tr>
+        </tfoot>
     </table>
 </body>
 
