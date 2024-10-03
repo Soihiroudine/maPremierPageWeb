@@ -1,0 +1,29 @@
+
+table {
+    border:1px solid #b6b0b0;
+    width: 100%;
+}
+
+tr:nth-child(even) {
+    background-color: #a4a7a9;
+}
+.premiereCellule {
+    background-color: #283747;
+    color: #fdfefe ;
+}
+
+table th,
+ table td {
+    padding: 10px;
+    margin: 15px;
+    text-align: center;
+}
+table th {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3em;
+}
+
+table td {
+    font-family:'Times New Roman', Times, serif;
+    font-size: 1.1em;
+}
