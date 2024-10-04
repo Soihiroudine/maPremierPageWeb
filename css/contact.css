@@ -4,15 +4,29 @@ form {
     display: flex;
     flex-direction: column;
     align-items: center;
+    
 }
 
 form div {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    margin: 10px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+form label {
+    font-size: 1.2em;
+    margin: 5px;
+    font-weight: bold;
 }
 
 form div input, form div textarea {
+    width: 70%;
+    height: 100%;
     border: none;
     outline: none;
     margin: 0.39em;
@@ -20,6 +34,15 @@ form div input, form div textarea {
     font-size: 1em;
     border-radius: 0.5em;
     line-height: 1.5;
+}
+
+#boutton {
+    display: flex;
+    justify-content: center;
+}
+
+textarea {
+    resize: none;
 }
 
 form div #envoyer {
