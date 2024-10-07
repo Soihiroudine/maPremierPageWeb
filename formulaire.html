@@ -4,7 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <title>Formulaire</title>
-    <!-- <link rel="stylesheet" href="css/formulaire.css"> -->
+    <link rel="stylesheet" href="css/partie2Formulaire.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Montserrat&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
@@ -28,7 +33,7 @@
             <input type="radio">
             <label for="">Plus de 40 ans</label>
         </div>
-    <!-- </form>
+        <!-- </form>
 
     <form> -->
         <p>Sur quel continent habitez-vous ?</p>
@@ -54,6 +59,65 @@
             <label for="">Océanie</label>
         </div>
     </form>
+
+    <hr>
+
+    <!-- Exercice formulaire : 77 -->
+    <section>
+
+        <!-- Exercice 2 sur les formulaire -->
+        <!-- Premier partie du  -->
+        <form action="">
+            <fieldset class="firstSet">
+                <legend>Vos coordonnees</legend>
+                <div>
+                    <label for="">Quel est votre nom ?</label>
+                    <input type="text" required>
+                </div>
+                <div>
+                    <label for="">Quel est votre prénom ?</label>
+                    <input type="text" required>
+                </div>
+                <div>
+                    <label for="">Quel est votre e-mail ?</label>
+                    <input type="email" required>
+                </div>
+            </fieldset>
+
+            <!-- Deuxieme partie du formulaire -->
+            <fieldset class="secondSet">
+                <legend>Votre souhait</legend>
+                <div>
+                    <div>
+                        <p>Faites un souhait que vous voudriez voir exaucé :</p>
+                    </div>
+                    <div>
+                        <input type="radio" name="riche" id="riche">
+                        <label for="riche">Être riche</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="celebre" id="celebre">
+                        <label for="celebre">Être célèbre</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="intelligent" id="intelligent">
+                        <label for="intelligent">Être <strong>encore</strong> plus intelligent</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="autre" id="autre">
+                        <label for="autre">Autre ...</label>
+                    </div>
+                </div>
+
+                <div class="textarea">
+                    <label for="Tautre">Si "Autre", veuillez préciser :</label>
+                    <textarea name="Tautre" id="Tautre" rows="5" cols="60"></textarea>
+                </div>
+
+            </fieldset>
+
+        </form>
+    </section>
 </body>
 
 </html>
